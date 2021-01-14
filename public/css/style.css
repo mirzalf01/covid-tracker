@@ -1,0 +1,134 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+    width: 90%;
+    margin: auto;
+}
+.title p{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+.title p:nth-child(1){
+    font-size: 38px;
+    font-weight: 700;    
+}
+
+.title p:nth-child(2){
+    font-weight: 400;
+    margin-top: -10px;    
+}
+
+.title .boxes{
+    display: flex;
+    width: 100%;
+    margin: 60px auto;
+    justify-content: space-between;
+}
+
+.title .boxes .box{
+    width: 25%;
+    background-color: pink;
+    height: 150px;
+    border-radius: 20px;
+    padding: 30px 20px 0px;
+}
+
+.title .boxes .box p{
+    text-align: left;
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+
+.title .boxes .box .number{
+    font-weight: bold;
+    line-height: 36px;
+    font-size: 36px;
+    color: white;
+    margin: 3px 0px;
+}
+
+.title .boxes .positif{
+    background: linear-gradient(131.66deg, #F41A1A 26.46%, #651A1A 85.45%);
+}
+
+.title .boxes .sembuh{
+    background: linear-gradient(108.35deg, #1FEE0D 5.02%, #0C5201 100%);
+}
+
+.title .boxes .meninggal{
+    background: linear-gradient(113.45deg, #3F3939 19.72%, #090101 83.53%);
+}
+
+.table{
+    margin: 50px auto;
+    width: 70%;
+}
+
+.table p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.table form{
+    float: right;
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.15));
+    display: inline-flex;
+    margin: 20px 0;
+}
+
+.table form #filter{
+    padding: 8px;
+    width: 250px;
+    border: none;
+    outline: none;
+}
+
+.table form input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+.table form button{
+    border: none;
+    width: 30px;
+}
+
+.clear{
+    clear: both;
+}
+
+.table .table-container{
+    height: 253px;
+    overflow-y: scroll;
+    position: relative;
+}
+.table table{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.table table th{
+    background-color: #E5E5E5;
+    position: sticky;
+    top: 0;
+}
+
+.table table th, .table table td{
+    text-align: left;
+    padding: 5px;
+    width: 20%;
+}
+
+.table th:nth-child(1), .table td:nth-child(1){
+    width: 5%;
+}
+
+.table table, .table th, .table td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
